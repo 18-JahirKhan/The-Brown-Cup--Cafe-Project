@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <title>The Brown Cup Cafe</title>
+</head>
+    <body class="bg-[#F8E7C9] text-[#3E2723]">
+
+    <!-- header -->
+
+    <header class="bg-[#18251d] text-[#F8E7C9]">
+
+        <nav class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+
+            <h1 class="text-2xl font-bold">
+                <img src="img\8e96bb97-be8e-4ea5-9ec1-d038a3ac3902.png" class="w-32 bg-transparent  " alt="">
+            </h1>
+
+            <div class="hidden md:flex gap-6">
+                <a href="index.html" class="hover:text-white">Home</a>
+                <a href="service.html"class="hover:text-white">service</a>
+                <a href="menu.html" class="hover:text-white">Menu</a>
+                <a href="gallery.html" class="hover:text-white">Gallery</a>
+                <a href="contact.html" class="hover:text-white">Contact</a>
+
+            </div>
+
+            <a href="contact.html"
+               class="bg-[#F8E7C9] text-[#3E2723] px-5 py-2 rounded-lg font-semibold">
+                Book a Table
+            </a>
+        </nav>
+    </header>
+
+
+
+
+    <!-- hero section -->
+
+    <section
+        class="h-[300px] bg-cover bg-center" style="background-image: url('./img/large.jpg');">
+
+        <div class="bg-black/50 h-full flex items-center">
+
+            <div class="max-w-6xl mx-auto w-full px-6 text-[#F8E7C9]">
+
+                <h2 class="text-4xl md:text-5xl font-serif">
+                    Our Menu
+                </h2>
+
+                <p class="mt-3 text-sm">
+                    Crafted with care, served with love.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- menu cards -->
+
+    <section class="py-20">
+
+        <div class="max-w-7xl mx-auto px-6">
+
+            <h2 class="text-3xl font-bold mb-10">
+                Coffee & Beverages
+            </h2>
+
+
+            <!-- GRID -->
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+                <!-- ITEM -->
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Cappuccino
+                    </h3>
+
+                    <p class="mt-2 text-[#F8E7C9]">
+                        Rich espresso with creamy steamed milk.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹160
+                    </p>
+
+                </div>
+
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Cafe Latte
+                    </h3>
+
+                    <p class="mt-2 text-[#F8E7C9]">
+                        Smooth espresso with warm milk.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹180
+                    </p>
+
+                </div>
+
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Cold Coffee
+                    </h3>
+
+                    <p class="mt-2 text-[#F8E7C9]">
+                        Chilled creamy coffee with chocolate.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹190
+                    </p>
+
+                </div>
+
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Masala Tea
+                    </h3>
+
+                    <p class="mt-2 text-[#F8E7C9]">
+                        Traditional Indian tea with spices.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹90
+                    </p>
+
+                </div>
+
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Hot Chocolate
+                    </h3>
+
+                    <p class="mt-2 text-[#F8E7C9]">
+                        Creamy chocolate drink.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹170
+                    </p>
+
+                </div>
+
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Fresh Lemonade
+                    </h3>
+
+                    <p class="mt-2 text-[#F8E7C9] ">
+                        Fresh lemon with mint and ice.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹120
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOD -->
+
+            <h2 class="text-3xl font-bold mt-20 mb-10">
+                Food & Snacks
+            </h2>
+
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Margherita Pizza
+                    </h3>
+
+                    <p class="mt-2">
+                        Classic cheese and tomato pizza.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹280
+                    </p>
+
+                </div>
+
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Veg Sandwich
+                    </h3>
+
+                    <p class="mt-2">
+                        Fresh vegetables with creamy sauce.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹180
+                    </p>
+
+                </div>
+
+
+                <div class="bg-[#18251d] text-[#F8E7C9] p-6 rounded-2xl shadow">
+
+                    <h3 class="text-xl font-bold">
+                        Pasta
+                    </h3>
+
+                    <p class="mt-2">
+                        Creamy Italian style pasta.
+                    </p>
+
+                    <p class="text-xl font-bold mt-4">
+                        ₹240
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+        </div>
+
+    </section>
+
+
+
+  
+
+    <section class="px-5 pb-12">
+
+        <div
+            class="max-w-6xl mx-auto min-h-[250px]  rounded-xl overflow-hidden  bg-cover bg-center" style="background-image: url('./img/large.jpg');">
+
+            <div class="bg-black/50 min-h-[250px]  flex items-center">
+
+                <div class="text-[#F8E7C9]  px-8 md:px-12">
+
+                    <h2 class="text-3xl md:text-4xl font-serif">
+
+                        Good Coffee
+                        <br>
+                        Good Mood
+
+                    </h2>
+
+
+                    <a href="contact.html"
+                       class="inline-block bg-[#F8E7C9]  text-black px-5 py-3 rounded-full text-sm mt-5">
+
+                        Explore More
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+     <footer class="bg-[#18251d] text-[#F8E7C9] py-8">
+
+        <div class="max-w-7xl mx-auto px-6 text-center">
+
+            <h2 class="text-xl font-bold mb-2">
+                The Brown Cup Cafe
+            </h2>
+
+            <p>
+                Coffee - Food - Conversations
+            </p>
+
+            <p class="mt-4 text-sm">
+                © 2026 The Brown Cup Cafe. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+ 
+
+    
+</body>
+
+</html>
